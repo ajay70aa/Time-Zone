@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Inter, 'Arial Narrow Bold', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-1 {  
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+}
+.section-1 h1{
+  font-size: 100px;
+  font-weight: 700;
+}
+.section-2 {
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+}
+.section-2 h1{
+  font-size: 100px;
+  font-weight: 700;
+  color: white;
+}
+.section-2 input {
+  display: block;
+  width: 100%;
+  padding: 12px 12px;
+  background-color: transparent;
+  border: 2px solid white;
+  margin-bottom: 20px;
+  color: white;
+}
+.section-2 button {
+  background-color: white;
+  color: black;
+  padding: 8px 24px;
+  font-size: 24px;
+  font-weight: 300;
+  border: none;
+  cursor: pointer;
+}
+.section-2 button:hover{
+  background-color: antiquewhite;
+}
+#my-time-zone {
+  border: 2px solid black;
+  height: auto;
+}
+#result-time-zone {
+  border: 2px solid white;
+  height: auto;
+}
+.properties-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.properties-container p {
+  font-size: 50px;
+  font-weight: 400;
+}
+.result-properties-container{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.result-properties-container p {
+  font-size: 50px;
+  font-weight: 400;
+  color: white;
+}
+#input-feedback {
+  color: red;
+}
