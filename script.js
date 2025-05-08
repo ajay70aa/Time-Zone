@@ -74,6 +74,9 @@ function timezoneByAddress(){
     });
     } else {
       feedbackElem.style.display = "block"
+      setTimeout(()=>{
+        feedbackElem.style.display = "none"
+      }, 2000)
     }
 }
 submitBtn.addEventListener("click", timezoneByAddress)
